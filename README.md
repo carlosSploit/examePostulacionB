@@ -26,6 +26,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[cala-mares.png](https://i.postimg.cc/L8fCQZBy/Captura.png)
-
+[Primera Cactura de pantalla](https://i.postimg.cc/L8fCQZBy/Captura.png)
+[Segunda Cactura de pantalla](https://i.postimg.cc/v8r5KLpx/Captura2.png)
 
