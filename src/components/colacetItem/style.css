@@ -1,0 +1,183 @@
+.component_collaps_content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.component_collaps_header {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component_collaps_header_title {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.component_collaps_body {
+    background-color: #F4F4F4;
+    height: auto;
+    width: 100%;
+}
+
+.component_collaps_body_content {
+    height: auto;
+    min-height: 24px;
+    width: calc(100% - 8px);
+    /* aling */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    /* background-color: red; */
+    /*-------------------*/
+    /* background-color: blue; */
+}
+
+.component_collaps_body_item {
+    background-color: transparent;
+    height: auto;
+    min-height: 24px;
+    width: 100%;
+    min-width: 230px;
+    /* centrar el contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.component_collaps_body_content_card {
+    height: auto;
+    min-height: 30px;
+    width: calc(95% - 10px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    border-radius: 12px;
+    background-color: #D9D5F2;
+}
+
+.component_collaps_body_item_content_icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component_collaps_body_item_icon {
+    font-size: 12px;
+    color: #9686C3;
+}
+
+.component_collaps_body_item_iconUrl {
+    width: 14px;
+    height: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.component_collaps_body_item_info {
+    padding-left: 5px;
+    /* el icono de url, el container y el espacio del marginal left 14px 24px 5px 10px */
+    width: calc(100% - 53px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.component_collaps_body_item_selector {
+    width: 24px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component_collaps_body_item_selector_contr {
+    width: 14px;
+    height: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: red; */
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D9D5F2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component_collaps_body_item_selector_contr>div {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #D9D5F2;
+}
+
+.component_collaps_body_item_title {
+    color: #181429;
+    font-size: 12px;
+    width: 100%;
+    height: auto;
+    /* aling */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.component_collaps_body_item_subtitle {
+    color: rgba(34, 32, 56, 0.6);
+    font-size: 12px;
+    width: 100%;
+    height: auto;
+    /* aling */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.component_collaps_body_item_liner {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.component_collaps_header_actioncolap {
+    height: 24px;
+    width: 24px;
+    /* icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component_collaps_header_icon {
+    font-size: 12px;
+    color: white;
+}
